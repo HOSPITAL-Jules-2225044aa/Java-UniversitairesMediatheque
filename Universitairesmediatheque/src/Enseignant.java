@@ -8,11 +8,6 @@ public class Enseignant extends Personnel {
         this.décharge = décharge;
     }
 
-
-    public void EnseignantChercheur(int harpege, String prenom, String nom, String adressePostale, String adresseMail,
-            String etablissement, int serviceStatutaire2, int décharge) {
-    }
-
     // Getter et setter
     public int getServiceStatutaire() {
         return serviceStatutaire;

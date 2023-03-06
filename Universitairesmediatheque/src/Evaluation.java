@@ -3,9 +3,9 @@ public class Evaluation {
     private EnseignantChercheur enseignant;
     private Etudiant etudiant;
     private String date;
-    private double note;
+    private int note;
 
-    public Evaluation(UV uv, EnseignantChercheur enseignant, Etudiant etudiant, String date, double note) {
+    public Evaluation(UV uv, EnseignantChercheur enseignant, Etudiant etudiant, String date, int note) {
         this.uv = uv;
         this.enseignant = enseignant;
         this.etudiant = etudiant;
@@ -46,11 +46,11 @@ public class Evaluation {
         this.date = date;
     }
 
-    public double getNote() {
+    public int getNote() {
         return note;
     }
 
-    public void setNote(double note) {
+    public void setNote(int note) {
         this.note = note;
     }
 }
